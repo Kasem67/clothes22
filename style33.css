@@ -1,0 +1,96 @@
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-left: -6%;
+    margin-top: 3%;
+    gap: 7px;
+}
+.rating li{
+    color: #fcf107;
+}
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .price span {
+    text-decoration: line-through;
+    color: #aaa;
+    margin-right: 0.5rem;
+
+  }
+  .rela img{
+position: relative;
+  }
+  .rela .dis{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 50px;
+    padding-left: 1.7%;
+    height: 25px;
+    background-color: #ffc107;
+    color: white;
+    border-radius: 4px;
+  }
+  .cardicon{
+    display: flex;
+    justify-content: center;
+  }
+ .cart{
+    position: absolute;
+    top: 30%;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    padding-left: 2.5%;
+    padding-top: 1.5%;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 20%;
+ }
+ .wish{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    padding-top: 2%;
+    height: 40px;
+    cursor: pointer;
+ }
+ .det{
+    position: absolute;
+    top: 30%;
+    left:66% ;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-left: 2.5%;
+    padding-top: 2%;
+    cursor: pointer;
+ }
+ .det:hover{
+    background-color: #ffc107;
+    color: white;
+    opacity: 1.4;
+    transition: all 0.8s ease;
+ }
+ .wish:hover{
+    background-color: #ffc107;
+    color: white;
+    opacity: 1.4;
+    transition: all 0.8s ease;
+ }
+ .cart:hover{
+    background-color: #ffc107;
+    color: white;
+    opacity: 1.4;
+    transition: all 0.8s ease;
+ }
+ .price{
+    color: black;
+ }
